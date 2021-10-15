@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[APP] - Should renders app and match snapshot [APP] Should render APP and match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <header
+      class="sc-gsTEea kjDHvi"
+    >
+      <div
+        class="sc-bdfBQB hhVVxk"
+      >
+        <ul>
+          <li>
+            <img
+              height="40"
+              src="logo-spacex.png"
+              width="120"
+            />
+          </li>
+          <li>
+            <img
+              height="40"
+              src="logo-rd-station.png"
+              width="120"
+            />
+          </li>
+        </ul>
+      </div>
+      <h1
+        class="sc-dlfnuX hbaWER"
+      >
+         🚀 Space X launches
+      </h1>
+    </header>
+    <span
+      class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+      role="progressbar"
+      style="width: 40px; height: 40px; margin-top: 50px;"
+    >
+      <svg
+        class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20.2"
+          stroke-width="3.6"
+        />
+      </svg>
+    </span>
+  </div>
+</DocumentFragment>
+`;

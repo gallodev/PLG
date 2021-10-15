@@ -1,5 +1,5 @@
 
-# 🚀 Space X launches
+# 🚀 Space X launches api
 
 O space X launches tem o objetivo de consumir a API da SPACE X e consumir no  
 - Próximo lançamento;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Header] Should test Header component [Header] Should render Header and match snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-gsTEea kjDHvi"
+  >
+    <div
+      class="sc-bdfBQB hhVVxk"
+    >
+      <ul>
+        <li>
+          <img
+            height="40"
+            src="logo-spacex.png"
+            width="120"
+          />
+        </li>
+        <li>
+          <img
+            height="40"
+            src="logo-rd-station.png"
+            width="120"
+          />
+        </li>
+      </ul>
+    </div>
+    <h1
+      class="sc-dlfnuX hbaWER"
+    >
+       🚀 Space X launches
+    </h1>
+  </header>
+</DocumentFragment>
+`;
