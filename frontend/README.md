@@ -1,46 +1,48 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 Space X launches api
 
-## Available Scripts
+O space X launches tem o objetivo de consumir a API da SPACE X e consumir no  
+- Próximo lançamento;
+- Último lançamento;
+- Próximos lançamentos;
+- Lançamentos passados;
+- [API Space X ](https://github.com/r-spacex/SpaceX-API/tree/master/docs#rspacex-api-docs)
 
-In the project directory, you can run:
+## 🔗 URL's
 
-### `npm start`
+| Environment | Url |
+| --- | --- |
+| URL | [https://plg-2z67vo4cp-gallodev.vercel.app/](https://plg-2z67vo4cp-gallodev.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚠️ Requerimentos
 
-### `npm test`
+- Node v10.19+
+- NPM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🗃 Variaveis de ambiênte
 
-### `npm run build`
+Caso queira trocar a URL de consumo da API utilizada pela aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Variable | Description |
+| --- | --- |
+| `REACT_APP_HEROKU_API` | Define a URL de consumo da API Sample: REACT_APP_HEROKU_API=https://spacex-api-v1.herokuapp.com |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎬 Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Primeiro clonar o projeto `git clone https://github.com/gallodev/PLG/frontend` 
+    Após clonar o projeto entre no diretório frontend e execute `npm install` e rode o projeto com `npm start` !
 
-### `npm run eject`
+Depois em seu navegador acesse [http://localhost:3000](http://localhost:3000) ou a porta personalizada de acordo com o seu env.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 📁 repositório: [https://github.com/gallodev/PLG/frontend](https://github.com/gallodev/PLG/frontend)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🗂 Folder structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+📦 src
+ ├── 📂 components
+ ├── 📂 api
+ ├── 📂 assets
+ ├── 📜 App.tsx
+```

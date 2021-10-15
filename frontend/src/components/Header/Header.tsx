@@ -12,7 +12,7 @@ const Header: React.FC = () => {
                     <li><img src={LogoRD} width="120" height="40" /></li>
                 </ul>
             </ContainerLogo>
-            <Title> 🚀 Space X launches</Title>
+            <Title>🚀</Title>
         </TopHeader>
     )
 }
