@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import moment from 'moment';
 
 export interface AccordionDetailProps {
     rocket: any;
@@ -9,6 +10,7 @@ export interface DetailItemProps {
     value: string;
     isImage?: boolean;
     isLink?: boolean;
+    isDate?: boolean;
 }
 
 export const Detail = styled.div`
@@ -28,8 +30,11 @@ export const Detail = styled.div`
     }
 `
 
-const AccordionItem: React.FC<DetailItemProps> = ({ value, label, isImage, isLink }: DetailItemProps): JSX.Element => {
+const AccordionItem: React.FC<DetailItemProps> = ({ value, label, isImage, isLink, isDate }: DetailItemProps): JSX.Element => {
     let formatedValue: any = <span><strong>{label}</strong> : {value}</span>;
+    if(isDate) { 
+        formatedValue = <span><strong>{label}</strong> : {moment.utc(value).format('DD/MM/YYYY')}</span>;
+    }
     if(isImage) {
         formatedValue = <div><img src={value} width={120} height={120} /></div>;
     }
@@ -53,7 +58,7 @@ const AccordionDetail: React.FC<AccordionDetailProps> = ({ rocket } : AccordionD
         <Detail>
             <ul>
                 <AccordionItem value={rocket.name} label="Foguete"/>
-                <AccordionItem value={rocket.date_local} label="Data"/>
+                <AccordionItem value={rocket.date_local} label="Data" isDate/>
                 <AccordionItem value={rocket.details} label="Detalhes"/>
                 <AccordionItem value={rocket.links.patch.large} label="Emblema" isImage/>
                 <AccordionItem value={srcDetail} label="+ detalhes" isLink/>
