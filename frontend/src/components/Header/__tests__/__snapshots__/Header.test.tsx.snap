@@ -28,7 +28,7 @@ exports[`[Header] Should test Header component [Header] Should render Header and
     <h1
       class="sc-dlfnuX hbaWER"
     >
-       🚀 Space X launches
+      🚀
     </h1>
   </header>
 </DocumentFragment>

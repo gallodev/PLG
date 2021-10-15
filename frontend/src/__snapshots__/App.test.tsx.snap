@@ -31,7 +31,7 @@ exports[`[APP] - Should renders app and match snapshot [APP] Should render APP a
       <h1
         class="sc-dlfnuX hbaWER"
       >
-         🚀 Space X launches
+        🚀
       </h1>
     </header>
     <span

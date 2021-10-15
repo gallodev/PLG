@@ -18,14 +18,12 @@ export const Detail = styled.div`
         list-style: none;
         margin: 15px auto;                
         text-align: center;
+        width: 600px;
         &:last-child {
             position: relative;
             margin-bottom: 40px;
             padding-bottom:40px;
             border-bottom: 1px solid #ccc;
-        }
-        span {
-            max-width: 500px;
         }
     }
 `
